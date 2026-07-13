@@ -79,25 +79,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-panel" aria-label="Contact Brothers Plumbing">
-          <div className="panel-topline"><span>Local service desk</span><span className="status"><i /> Ready to help</span></div>
-          <div className="panel-center">
-            <span className="panel-kicker">Start with a conversation</span>
-            <h2>What can we help you fix?</h2>
-            <p>Tell us what’s going on. We’ll help you figure out the next step.</p>
-          </div>
-          <div className="contact-stack">
-            <a href="tel:+19495485558">
-              <span className="contact-icon">01</span>
-              <span><small>Call us</small><strong>(949) 548-5558</strong></span>
-              <b>→</b>
-            </a>
-            <a href="mailto:brothersplumbing@sbcglobal.net">
-              <span className="contact-icon">02</span>
-              <span><small>Email us</small><strong>brothersplumbing@sbcglobal.net</strong></span>
-              <b>→</b>
-            </a>
-          </div>
+        <div className="hero-photo-note" aria-label="Professional plumbing service">
+          <span><i /> Professional local service</span>
+          <strong>Plumbing · Heating · Air</strong>
         </div>
       </section>
 
