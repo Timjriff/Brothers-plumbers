@@ -62,6 +62,22 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
+        <video
+          className="hero-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="https://images.pexels.com/videos/7584858/pexels-photo-7584858.jpeg?auto=compress&fit=crop&w=1920&h=1080"
+          aria-hidden="true"
+          tabIndex={-1}
+        >
+          <source
+            src="https://videos.pexels.com/video-files/7584858/7584858-hd_1920_1080_25fps.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div className="hero-copy">
           <div className="eyebrow"><i /> Local plumbing, heating &amp; air</div>
           <h1>Reliable home comfort, handled like family.</h1>
@@ -176,3 +192,4 @@ export default function Home() {
     </main>
   );
 }
+
