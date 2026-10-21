@@ -90,7 +90,7 @@ export default function Home() {
             <a className="button secondary" href="/services">Explore services <span>↗</span></a>
           </div>
           <div className="hero-proof" aria-label="Service highlights">
-            <div><strong>30+</strong><span>Years serving<br />Orange County</span></div>
+            <div><strong>40+</strong><span>Years serving<br />Orange County</span></div>
             <div><strong>Full-service</strong><span>Pipes, drains<br />and water heaters</span></div>
             <div><strong>Local</strong><span>Costa Mesa based<br />and family rooted</span></div>
           </div>
@@ -122,12 +122,12 @@ export default function Home() {
       <section className="about section" id="about">
         <div className="about-mark" aria-hidden="true">
           <span>B</span>
-          <small>Built on local<br />know-how</small>
+          <small>Established<br />1984</small>
         </div>
         <div className="about-copy">
           <span className="section-label">Why Brothers</span>
           <h2>Experience you can feel from the first call.</h2>
-          <p className="about-lead">For more than three decades, Brothers Plumbing has helped Orange County homeowners solve plumbing problems with skill and common sense.</p>
+          <p className="about-lead">Established in 1984 by Jim and John, Brothers Plumbing has spent more than four decades helping Orange County homeowners with dependable workmanship, honest answers, and practical plumbing solutions.</p>
           <div className="values">
             <div><span>01</span><h3>Clear communication</h3><p>We listen first, explain the options, and keep the process understandable.</p></div>
             <div><span>02</span><h3>Practical solutions</h3><p>Recommendations focused on what your home actually needs.</p></div>
