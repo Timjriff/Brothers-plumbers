@@ -81,6 +81,7 @@ export default function ServicesPage() {
           <img src="/brothers-plumbing-logo.jpg" alt="Brothers Plumbing" />
         </a>
         <nav aria-label="Main navigation">
+          <a href="/">Home</a>
           <a href="/services" aria-current="page">Services</a>
           <a href="/#about">About</a>
           <a href="/#process">How it works</a>
