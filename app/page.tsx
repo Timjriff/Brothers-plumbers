@@ -69,12 +69,12 @@ export default function Home() {
           loop
           playsInline
           preload="metadata"
-          poster="https://images.pexels.com/videos/7584858/pexels-photo-7584858.jpeg?auto=compress&fit=crop&w=1920&h=1080"
+          poster="https://images.pexels.com/videos/7584762/pexels-photo-7584762.jpeg?auto=compress&fit=crop&w=1920&h=1080"
           aria-hidden="true"
           tabIndex={-1}
         >
           <source
-            src="https://videos.pexels.com/video-files/7584858/7584858-hd_1920_1080_25fps.mp4"
+            src="https://videos.pexels.com/video-files/7584762/7584762-hd_1920_1080_25fps.mp4"
             type="video/mp4"
           />
         </video>
