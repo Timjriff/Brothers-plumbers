@@ -12,22 +12,22 @@ const services = [
   {
     number: "03",
     title: "Water heaters",
-    copy: "Troubleshooting, repair, and replacement guidance for traditional and tankless water-heating systems.",
+    copy: "Troubleshooting, repair, and replacement guidance for traditional and tankless water heaters.",
   },
   {
     number: "04",
-    title: "Heating service",
-    copy: "Heating diagnostics and service to help keep your space comfortable when Southern California nights turn cool.",
+    title: "Leak detection",
+    copy: "Careful troubleshooting to find hidden plumbing leaks and recommend a practical path to repair.",
   },
   {
     number: "05",
-    title: "Air conditioning",
-    copy: "Cooling-system repairs and maintenance focused on reliable comfort and straightforward recommendations.",
+    title: "Repiping",
+    copy: "Straightforward guidance and dependable workmanship for aging, damaged, or problem plumbing lines.",
   },
   {
     number: "06",
-    title: "Installations",
-    copy: "Thoughtful replacement and installation support for plumbing fixtures and home-comfort equipment.",
+    title: "Fixture installations",
+    copy: "Professional installation and replacement for faucets, sinks, toilets, disposals, and other plumbing fixtures.",
   },
 ];
 
@@ -79,10 +79,10 @@ export default function Home() {
           />
         </video>
         <div className="hero-copy">
-          <div className="eyebrow"><i /> Local plumbing, heating &amp; air</div>
-          <h1>Reliable home comfort, handled like family.</h1>
+          <div className="eyebrow"><i /> Local plumbing specialists</div>
+          <h1>Reliable plumbing, handled like family.</h1>
           <p className="hero-lead">
-            Straightforward service for the systems your home depends on—delivered by a local Costa Mesa team with decades of experience.
+            Straightforward plumbing service for the systems your home depends on—delivered by a local Costa Mesa team with decades of experience.
           </p>
           <div className="hero-actions">
             <a className="button primary" href="tel:+19495485558">Call for service <span>↗</span></a>
@@ -90,14 +90,14 @@ export default function Home() {
           </div>
           <div className="hero-proof" aria-label="Service highlights">
             <div><strong>30+</strong><span>Years serving<br />Orange County</span></div>
-            <div><strong>3-in-1</strong><span>Plumbing, heating<br />and cooling help</span></div>
+            <div><strong>Full-service</strong><span>Pipes, drains<br />and water heaters</span></div>
             <div><strong>Local</strong><span>Costa Mesa based<br />and family rooted</span></div>
           </div>
         </div>
 
         <div className="hero-photo-note" aria-label="Professional plumbing service">
           <span><i /> Professional local service</span>
-          <strong>Plumbing · Heating · Air</strong>
+          <strong>Repairs · Drains · Water heaters</strong>
         </div>
       </section>
 
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="about-copy">
           <span className="section-label">Why Brothers</span>
           <h2>Experience you can feel from the first call.</h2>
-          <p className="about-lead">For more than three decades, Brothers Plumbing has helped Orange County homeowners solve plumbing and comfort-system problems with skill and common sense.</p>
+          <p className="about-lead">For more than three decades, Brothers Plumbing has helped Orange County homeowners solve plumbing problems with skill and common sense.</p>
           <div className="values">
             <div><span>01</span><h3>Clear communication</h3><p>We listen first, explain the options, and keep the process understandable.</p></div>
             <div><span>02</span><h3>Practical solutions</h3><p>Recommendations focused on what your home actually needs.</p></div>
@@ -180,7 +180,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-brand"><img src="/brothers-plumbing-logo.jpg" alt="Brothers Plumbing" /><p>Plumbing, heating, and air-conditioning service for Costa Mesa and Orange County.</p></div>
+        <div className="footer-brand"><img src="/brothers-plumbing-logo.jpg" alt="Brothers Plumbing" /><p>Professional plumbing service for Costa Mesa and Orange County.</p></div>
         <div className="footer-links"><span>Navigate</span><a href="#services">Services</a><a href="#about">About</a><a href="#process">How it works</a><a href="#contact">Contact</a></div>
         <div className="footer-links"><span>Get in touch</span><a href="tel:+19495485558">(949) 548-5558</a><a href="mailto:brothersplumbing@sbcglobal.net">Email Brothers</a><a href="https://m.yelp.com/biz/brothers-plumbing-costa-mesa" target="_blank" rel="noreferrer">View on Yelp</a></div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Brothers Plumbing.</span><span>Costa Mesa, California</span></div>
