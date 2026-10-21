@@ -47,7 +47,7 @@ export default function Home() {
 
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Brothers Plumbing home">
-          <img src="/brothers-plumbing-logo.png" alt="Brothers Plumbing, Heating and Air Conditioning" />
+          <img src="/brothers-plumbing-logo.jpg" alt="Brothers Plumbing" />
         </a>
         <nav aria-label="Main navigation">
           <a href="#services">Services</a>
@@ -180,7 +180,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-brand"><img src="/brothers-plumbing-logo.png" alt="Brothers Plumbing" /><p>Plumbing, heating, and air-conditioning service for Costa Mesa and Orange County.</p></div>
+        <div className="footer-brand"><img src="/brothers-plumbing-logo.jpg" alt="Brothers Plumbing" /><p>Plumbing, heating, and air-conditioning service for Costa Mesa and Orange County.</p></div>
         <div className="footer-links"><span>Navigate</span><a href="#services">Services</a><a href="#about">About</a><a href="#process">How it works</a><a href="#contact">Contact</a></div>
         <div className="footer-links"><span>Get in touch</span><a href="tel:+19495485558">(949) 548-5558</a><a href="mailto:brothersplumbing@sbcglobal.net">Email Brothers</a><a href="https://m.yelp.com/biz/brothers-plumbing-costa-mesa" target="_blank" rel="noreferrer">View on Yelp</a></div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Brothers Plumbing.</span><span>Costa Mesa, California</span></div>
