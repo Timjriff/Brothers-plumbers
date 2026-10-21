@@ -28,10 +28,10 @@ nav a:hover { color: var(--green); }
 .header-call { border-left: 1px solid rgba(255,255,255,.25); padding-left: 24px; color: #fff; font-size: 15px; font-weight: 750; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
 .header-call span { display: block; color: var(--green); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
 
-.hero { min-height: max(760px, 100svh); position: relative; overflow: hidden; background: #111612 url("https://images.pexels.com/videos/7584762/pexels-photo-7584762.jpeg?auto=compress&fit=crop&w=1920&h=1080") center center / cover no-repeat; border-bottom: 1px solid var(--line); color: var(--white); }
+.hero { min-height: max(760px, 100svh); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; background: #111612 url("https://images.pexels.com/videos/7584762/pexels-photo-7584762.jpeg?auto=compress&fit=crop&w=1920&h=1080") center center / cover no-repeat; border-bottom: 1px solid var(--line); color: var(--white); }
 .hero-video { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(7,12,9,.94) 0%, rgba(7,12,9,.86) 38%, rgba(7,12,9,.67) 60%, rgba(7,12,9,.46) 100%); }
-.hero-copy { width: min(62%, 880px); padding: 178px 7vw 72px; position: relative; z-index: 2; }
+.hero-copy { width: min(62%, 880px); padding: 140px 7vw 36px; position: relative; z-index: 2; }
 .eyebrow, .section-label { display: inline-flex; align-items: center; gap: 9px; color: var(--green-dark); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .eyebrow i { width: 8px; height: 8px; background: var(--green); border-radius: 50%; box-shadow: 0 0 0 5px rgba(98,185,46,.15); }
 .hero h1 { max-width: 780px; margin: 22px 0 24px; font-size: clamp(52px, 5.7vw, 88px); line-height: .95; letter-spacing: -.065em; font-weight: 700; }
@@ -43,7 +43,7 @@ nav a:hover { color: var(--green); }
 .button.primary:hover { background: #6cca35; }
 .button.secondary { border-color: rgba(255,255,255,.55); background: rgba(8,14,10,.18); color: var(--white); }
 .button.secondary:hover { background: rgba(255,255,255,.12); }
-.hero-proof { margin-top: 66px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,.28); display: grid; grid-template-columns: repeat(3, 1fr); max-width: 720px; }
+.hero-proof { margin-top: 46px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.28); display: grid; grid-template-columns: repeat(3, 1fr); max-width: 720px; }
 .hero-proof div { display: flex; align-items: center; gap: 13px; border-right: 1px solid rgba(255,255,255,.28); padding-right: 18px; margin-right: 18px; }
 .hero-proof div:last-child { border: 0; margin: 0; }
 .hero-proof strong { font-size: 25px; letter-spacing: -.04em; }
@@ -138,10 +138,10 @@ footer { padding: 65px 7vw 25px; background: #0c100d; color: #fff; display: grid
   .hero { min-height: 760px; background-position: 58% center; }
   .hero-video { object-position: 58% center; }
   .hero::before { background: linear-gradient(90deg, rgba(7,12,9,.94) 0%, rgba(7,12,9,.88) 58%, rgba(7,12,9,.70) 100%); }
-  .hero-copy { width: 100%; padding: 150px 24px 50px; }
+  .hero-copy { width: 100%; padding: 132px 24px 28px; }
   .hero h1 { font-size: clamp(48px, 13vw, 70px); }
   .hero-actions { flex-direction: column; }
-  .hero-proof { margin-top: 44px; grid-template-columns: repeat(3, 1fr); gap: 5px; }
+  .hero-proof { margin-top: 34px; grid-template-columns: repeat(3, 1fr); gap: 5px; }
   .hero-proof div { display: block; padding: 0; }
   .hero-proof strong { display: block; font-size: 21px; }
   .hero-proof span { font-size: 9px; }
