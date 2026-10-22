@@ -30,7 +30,7 @@ nav a:hover { color: var(--green); }
 
 .hero { min-height: max(760px, 100svh); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; background: #111612 url("https://images.pexels.com/videos/7584762/pexels-photo-7584762.jpeg?auto=compress&fit=crop&w=1920&h=1080") center center / cover no-repeat; border-bottom: 1px solid var(--line); color: var(--white); }
 .hero-video { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
-.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(7,12,9,.94) 0%, rgba(7,12,9,.86) 38%, rgba(7,12,9,.67) 60%, rgba(7,12,9,.46) 100%); }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(7,12,9,.70) 0%, rgba(7,12,9,.56) 38%, rgba(7,12,9,.34) 60%, rgba(7,12,9,.16) 100%); }
 .hero-copy { width: min(62%, 880px); padding: 140px 7vw 36px; position: relative; z-index: 2; }
 .eyebrow, .section-label { display: inline-flex; align-items: center; gap: 9px; color: var(--green-dark); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .eyebrow i { width: 8px; height: 8px; background: var(--green); border-radius: 50%; box-shadow: 0 0 0 5px rgba(98,185,46,.15); }
@@ -163,7 +163,7 @@ footer { padding: 65px 7vw 25px; background: #0c100d; color: #fff; display: grid
   .header-call span { display: none; }
   .hero { min-height: 760px; background-position: 58% center; }
   .hero-video { object-position: 58% center; }
-  .hero::before { background: linear-gradient(90deg, rgba(7,12,9,.94) 0%, rgba(7,12,9,.88) 58%, rgba(7,12,9,.70) 100%); }
+  .hero::before { background: linear-gradient(90deg, rgba(7,12,9,.74) 0%, rgba(7,12,9,.62) 58%, rgba(7,12,9,.40) 100%); }
   .hero-copy { width: 100%; padding: 132px 24px 28px; }
   .hero h1 { font-size: clamp(48px, 13vw, 70px); }
   .hero-actions { flex-direction: column; }
