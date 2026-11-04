@@ -63,22 +63,11 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <video
-          className="hero-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster="https://images.pexels.com/videos/19228519/pexels-photo-19228519.jpeg?auto=compress&fit=crop&w=1920&h=1080"
-          aria-hidden="true"
-          tabIndex={-1}
-        >
-          <source
-            src="https://videos.pexels.com/video-files/19228519/19228519-hd_1920_1080_30fps.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <div className="hero-slideshow" aria-hidden="true">
+          <img className="hero-slide hero-slide-truck" src="/hero-truck.jpg" alt="" />
+          <img className="hero-slide hero-slide-shop" src="/hero-shop.jpg" alt="" />
+          <img className="hero-slide hero-slide-pier" src="/hero-pier.jpg" alt="" />
+        </div>
         <div className="hero-copy">
           <div className="eyebrow"><i /> Local plumbing specialists</div>
           <h1>Reliable plumbing, handled like family.</h1>
