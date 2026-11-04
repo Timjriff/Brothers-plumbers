@@ -1,12 +1,11 @@
-# Third-party asset licenses
+# Site asset notes
 
-## Homepage hero video
+## Homepage hero slideshow
 
-- Asset: “A gold sink with a faucet running water” by Curtis Adams
-- Source: https://www.pexels.com/video/a-gold-sink-with-a-faucet-running-water-19228519/
-- License: Pexels License (free for commercial use; attribution not required)
-- License details: https://www.pexels.com/license/
-- Usage: Homepage background video and its Pexels-hosted poster frame
+- Assets: `hero-truck.jpg`, `hero-shop.jpg`, and `hero-pier.jpg`
+- Source: Images supplied directly by the project owner for use on the Brothers Plumbing website
+- Usage: Homepage hero slideshow
+- Note: No third-party stock license is claimed for these user-supplied images
 
 ## Withheld footage
 
