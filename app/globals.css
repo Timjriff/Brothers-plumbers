@@ -28,9 +28,9 @@ nav a:hover { color: var(--green); }
 .header-call { border-left: 1px solid rgba(255,255,255,.25); padding-left: 24px; color: #fff; font-size: 15px; font-weight: 750; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
 .header-call span { display: block; color: var(--green); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
 
-.hero { min-height: max(760px, 100svh); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; background: #111612 url("/hero-truck.jpg") center center / cover no-repeat; border-bottom: 1px solid var(--line); color: var(--white); }
-.hero-slideshow { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: #111612; }
-.hero-slide { position: absolute; inset: -3%; width: 106%; height: 106%; object-fit: cover; object-position: center; opacity: 0; transform: scale(1.03); animation: heroCrossfade 18s ease-in-out infinite, heroDrift 18s ease-in-out infinite; will-change: opacity, transform; }
+.hero { min-height: max(760px, 100svh); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; background: #0b100c; border-bottom: 1px solid var(--line); color: var(--white); }
+.hero-slideshow { position: absolute; top: 18%; right: 0; bottom: 6%; z-index: 0; width: min(56vw, 1000px); overflow: hidden; border-radius: 18px 0 0 18px; background: #111612; box-shadow: -24px 28px 70px rgba(0,0,0,.28); }
+.hero-slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; animation: heroCrossfade 18s ease-in-out infinite; will-change: opacity; }
 .hero-slide:nth-child(2) { animation-delay: 6s; }
 .hero-slide:nth-child(3) { animation-delay: 12s; }
 .hero-slide-truck { object-position: 50% 50%; }
@@ -43,12 +43,7 @@ nav a:hover { color: var(--green); }
   39% { opacity: 0; }
   100% { opacity: 0; }
 }
-@keyframes heroDrift {
-  0% { transform: scale(1.03) translate3d(0, 0, 0); }
-  50% { transform: scale(1.07) translate3d(-0.5%, -0.4%, 0); }
-  100% { transform: scale(1.1) translate3d(0.5%, 0.3%, 0); }
-}
-.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(7,12,9,.70) 0%, rgba(7,12,9,.56) 38%, rgba(7,12,9,.34) 60%, rgba(7,12,9,.16) 100%); }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(7,12,9,.98) 0%, rgba(7,12,9,.96) 42%, rgba(7,12,9,.72) 58%, rgba(7,12,9,.18) 82%, rgba(7,12,9,.08) 100%); }
 .hero-copy { width: min(62%, 880px); padding: 140px 7vw 36px; position: relative; z-index: 2; }
 .eyebrow, .section-label { display: inline-flex; align-items: center; gap: 9px; color: var(--green-dark); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .eyebrow i { width: 8px; height: 8px; background: var(--green); border-radius: 50%; box-shadow: 0 0 0 5px rgba(98,185,46,.15); }
@@ -179,9 +174,10 @@ footer { padding: 65px 7vw 25px; background: #0c100d; color: #fff; display: grid
   .header-call { border: 0; padding: 0; font-size: 0; width: 42px; height: 42px; display: grid; place-items: center; background: var(--green); border-radius: 50%; }
   .header-call::after { content: "↗"; font-size: 18px; }
   .header-call span { display: none; }
-  .hero { min-height: 760px; background-position: 58% center; }
+  .hero { min-height: 760px; }
+  .hero-slideshow { top: 112px; right: 0; bottom: 0; left: 20%; width: auto; border-radius: 0; box-shadow: none; }
   .hero-slide-truck { object-position: 55% center; }
-  .hero::before { background: linear-gradient(90deg, rgba(7,12,9,.74) 0%, rgba(7,12,9,.62) 58%, rgba(7,12,9,.40) 100%); }
+  .hero::before { background: linear-gradient(90deg, rgba(7,12,9,.94) 0%, rgba(7,12,9,.78) 48%, rgba(7,12,9,.42) 78%, rgba(7,12,9,.22) 100%); }
   .hero-copy { width: 100%; padding: 132px 24px 28px; }
   .hero h1 { font-size: clamp(48px, 13vw, 70px); }
   .hero-actions { flex-direction: column; }
